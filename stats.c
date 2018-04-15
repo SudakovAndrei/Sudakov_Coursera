@@ -25,5 +25,31 @@
 #include <stdio.h>
 #include "stats.h"
 
+int main(void) {
+
+}
+unsigned char find_maximum(unsigned char * ptr, unsigned int size) {
+
+}
+
+unsigned char find_median(unsigned char * ptr, unsigned int size) {
+
+}
+
+unsigned char find_mean(unsigned char * ptr, unsigned int size) {
+
+}
+
+void print_statistics(unsigned char * ptr, unsigned int size) {
+ 
+}
+
+void print_array(unsigned char * ptr, unsigned int size) {
+
+}
+
+void sort_array(unsigned char * ptr, unsigned int size) {
+
+}
 
 
