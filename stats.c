@@ -124,8 +124,9 @@ void print_array(unsigned char * ptr, unsigned int size) {
 int i;
 
   for ( i = 0; i < size; i++ ) {
-    printf("Array[%d] value = %d\n", i, ptr[i]);
+    printf("\t%d", ptr[i]);
   }
+  printf("\n");
 }
 
 void sort_array(unsigned char * ptr, unsigned int size) {
@@ -136,7 +137,7 @@ unsigned char tmp2;
   
   for( i = 0; i < size; i++ ){
     for( j = 0; j < size - i - 1; j++ ){
-      if( ptr[j] > ptr[j + 1] ){ /* if current value is greater than  next */
+      if( ptr[j] < ptr[j + 1] ){ /* if current value is less than  next */
         /* swap them */
         tmp1 = ptr[j];
         tmp2 = ptr[j + 1];  
